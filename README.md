@@ -1,7 +1,25 @@
 # deepseek-ext README
 DeepSeek ext is an AI chat tool that helps you ask anything.
 
-## Features
+## How to build and install VSCode extension
 
-### Chat
-Sometimes you just want to ask a question. Whether you're troubleshooting a bug or crafting a new feature, DeepSeek extension is here to assist when you encounter challenges. Simply ask anything via chat.
+1. Install npm packages
+```
+npm install
+```
+
+2. Install DeepSeek latest model using ollama
+```
+ollama pull deepseek-r1:latest
+```
+
+3. Build VSCode extension and create .vsix file
+```
+npm run build
+```
+
+4. Import the .vsix file from 'Install from VSIX...' command on VSCode Extension tab
+
+## How to use
+1. Open Command pallet on VSCode
+2. Type 'DeepSeek Chat' and send message from GUI
