@@ -23,3 +23,5 @@ npm run build
 ## How to use
 1. Open Command pallet on VSCode
 2. Type 'DeepSeek Chat' and send message from GUI
+
+![result](./ret.gif)
